@@ -26,6 +26,7 @@ from aiopvpc.const import (
     DEFAULT_TIMEOUT,
     EsiosApiData,
     EsiosResponse,
+    KEY_INDEXED,
     KEY_PVPC,
     REFERENCE_TZ,
     SENSOR_KEY_TO_API_SERIES,
@@ -212,7 +213,7 @@ class PVPCData:
 
     def update_active_sensors(self, data_id: str, enabled: bool):
         """Update enabled API indicators to download."""
-        assert data_id in ALL_SENSORS
+        assert data_id in ALL_SENSORS or data_id == KEY_INDEXED
         if enabled:
             self._sensor_keys.add(data_id)
         elif data_id in self._sensor_keys:
