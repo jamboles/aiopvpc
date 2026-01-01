@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 
 _HOURS_P2 = (8, 9, 14, 15, 16, 17, 22, 23)
 _HOURS_P2_CYM = (8, 9, 10, 15, 16, 17, 18, 23)
@@ -12,20 +12,21 @@ _HOURS_P2_CYM = (8, 9, 10, 15, 16, 17, 18, 23)
 # - no 'translated' holidays
 # - no 'Jueves Santo' as special day
 
+
 def _tariff_period_key(local_ts: datetime, zone_ceuta_melilla: bool) -> str:
     """Return period key (P1/P2/P3) for current hour."""
     day = local_ts.date()
 
     fixed_holidays = [
-        (1, 1),   # 1 de enero
-        (1, 6),   # 6 de enero
-        (5, 1),   # 1 de mayo
+        (1, 1),  # 1 de enero
+        (1, 6),  # 6 de enero
+        (5, 1),  # 1 de mayo
         (8, 15),  # 15 de agosto
-        (10, 12), # 12 de octubre
+        (10, 12),  # 12 de octubre
         (11, 1),  # 1 de noviembre
         (12, 6),  # 6 de diciembre
         (12, 8),  # 8 de diciembre
-        (12, 25)  # 25 de diciembre
+        (12, 25),  # 25 de diciembre
     ]
 
     is_national_holiday = (day.month, day.day) in fixed_holidays
