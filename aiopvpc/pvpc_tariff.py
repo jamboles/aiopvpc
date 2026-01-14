@@ -86,7 +86,7 @@ _NATIONAL_EXTRA_HOLIDAYS_FOR_P3_PERIOD = {
         # date(2026, 11, 1): "(domingo), Todos los Santos",
         # date(2026, 12, 6): "(domingo), Día de la Constitución Española",
         date(2026, 12, 8): "(martes), La Inmaculada Concepción",
-        date(2026, 12, 25): "(viernes), Navidad", 
+        date(2026, 12, 25): "(viernes), Navidad",
     },
     2027: {
         date(2027, 1, 1): "(viernes), Año nuevo",
