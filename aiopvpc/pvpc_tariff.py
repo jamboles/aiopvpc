@@ -101,7 +101,6 @@ _NATIONAL_EXTRA_HOLIDAYS_FOR_P3_PERIOD = {
         date(2027, 12, 8): "(miércoles), La Inmaculada Concepción",
         date(2027, 12, 25): "(sábado), Navidad",
     },
-    
 }
 
 
