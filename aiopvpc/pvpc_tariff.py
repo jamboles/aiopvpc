@@ -101,19 +101,7 @@ _NATIONAL_EXTRA_HOLIDAYS_FOR_P3_PERIOD = {
         date(2027, 12, 8): "(miércoles), La Inmaculada Concepción",
         date(2027, 12, 25): "(sábado), Navidad",
     },
-    2028: {
-        date(2028, 1, 1): "(sábado), Año nuevo",
-        date(2028, 1, 6): "(jueves), Epifanía del Señor",
-        date(2028, 4, 20): "(jueves), Jueves Santo",
-        date(2028, 4, 21): "(viernes), Viernes Santo",
-        date(2028, 5, 1): "(lunes), Día del Trabajador",
-        date(2028, 8, 15): "(martes), Asunción de la Virgen",
-        date(2028, 10, 12): "(jueves), Día de la Hispanidad",
-        date(2028, 11, 1): "(miércoles), Todos los Santos",
-        date(2028, 12, 6): "(miércoles), Día de la Constitución Española",
-        date(2028, 12, 8): "(viernes), La Inmaculada Concepción",
-        date(2028, 12, 25): "(lunes), Navidad",
-    },
+    
 }
 
 
