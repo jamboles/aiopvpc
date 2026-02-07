@@ -87,7 +87,7 @@ _NATIONAL_EXTRA_HOLIDAYS_FOR_P3_PERIOD = {
         # date(2026, 12, 6): "(domingo), D..a de la Constituci..n Espa..ola",
         date(2026, 12, 8): "(martes), La Inmaculada Concepci..n",
         date(2026, 12, 25): "(viernes), Navidad",
-    },   
+    },
 }
 
 
